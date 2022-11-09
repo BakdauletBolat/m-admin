@@ -1,4 +1,4 @@
-FROM node:15.8-alpine3.11 AS build
+FROM node:16.3.0-alpine3.11 AS build
 WORKDIR /app
 COPY package.json package.json
 RUN npm install
