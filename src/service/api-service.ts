@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export class ApiService {
-    baseURL = 'http://192.168.18.142:8000/api/v1'
+    baseURL = import.meta.env.VITE_APP_API_BASE_URL
 
     axios = axios.create({
         baseURL: this.baseURL,
