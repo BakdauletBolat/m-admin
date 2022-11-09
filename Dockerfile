@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json package.json
 RUN npm install
 COPY . .
-RUN npm run build
+RUN npm run build-only
 
 FROM nginx:1.19-alpine
 COPY --from=build /app/dist /opt/site
