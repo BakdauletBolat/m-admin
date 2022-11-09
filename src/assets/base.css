@@ -1,0 +1,22 @@
+.base-link {
+  color: #A855F7;
+  font-weight: bold;
+}
+
+.p-fileupload {
+  margin-top:20px;
+}
+.p-fileupload .p-fileupload-content, .p-fileupload .p-fileupload-buttonbar{
+  border:none;
+  background: white;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link{
+  font-weight: 400;
+}
